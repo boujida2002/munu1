@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>tetr de kabri</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="csss.css">
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+<style>
+.thumbnail {
+   
+   
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+#NO{
+  color: aliceblue;
+}
+.bg-danger {
+  --bs-bg-opacity: 1;
+  background-color: #00000000 !important;
+}
+
+</style>
+</head>
+<body>
+<!-- Links (sit on top) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#menu">MENU</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about" id="NO">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu" id="NO">MENU</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="NO" href="https://docs.google.com/forms/d/e/1FAIpQLSd4RWUqEt_D7GGh-7s8o8bQlX4bJYouo6igLmrihdl7f1xVjQ/viewform?pli=1">RESERVATION</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Header with image -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+
+
+<!-- Menu Container -->
+
+    <div class="container">
+      <h1 class="text-center display-1 mb-5"><img src="images/86.png" alt="" srcset="" id="dod"></h1>
+   
+      </div>
+
+<div class="container-fluid bg-dark text-white py-1">
+    <div class="container-fluid bg-dark text-white py-5" id="menu">
+      <div class="container">
+        <h1 class="text-center display-1 mb-5">FOOD MENU</h1>
+        <div class="row justify-content-center border border-dark">
+          <a  class="col-md-4 text-center py-4 hover-red" href="#TAPAS">TAPAS</a>
+          <a  class="col-md-4 text-center py-4 hover-red" href="#SALADE">SALADE</a>
+          <a  class="col-md-4 text-center py-4 hover-red" href="#PIZZAS">PIZZAS</a>
+          <a   class="col-md-4 text-center py-4 hover-red" href="#PASTA">PASTA</a>
+          <a  class="col-md-4 text-center py-4 hover-red" href="#BURGERS">BURGERS</a>
+          <a  class="col-md-4 text-center py-4 hover-red" href="#DESSERT">DESSERT</a>
+        </div>
+
+
+        <div id="Pizza" class="container menu pt-4 pb-5">
+          <h1 class="fw-bold">Margherita <span class="badge bg-dark">$12.50</span></h1>
+          <p class="text-muted">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+          <hr>
+      
+          <!-- Add more menu items as needed -->
+        </div>
+
+        <div id="Pasta" class="container menu pt-4 pb-5">
+          <h1 class="fw-bold">Lasagna <span class="badge bg-dark">$13.50</span></h1>
+          <p class="text-muted">Special sauce, mozzarella, parmesan, ground beef</p>
+          <hr>
+      
+          <!-- Add more menu items as needed -->
+        </div>
+
+        <div id="Starter" class="container menu pt-4 pb-5">
+          <h1 class="fw-bold">Today's Soup <span class="badge bg-dark">$5.50</span></h1>
+          <p class="text-muted">Ask the waiter</p>
+          <hr>
+      
+          <!-- Add more menu items as needed -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- About Container -->
+    <div class="container-TAPAS bg-danger text-white py-5 grayscale x-large" id="TAPAS">
+      <div class="container">
+        <h1 class="text-center display-1 mb-3"><a data-bs-target="#menu" id="#menu" href="#menu"><img src="images/86.png" alt="" srcset="" class="img"> </a> </h1>
+        <h1 class="text-center display-1 mb-5">TAPAS</h1>
+        <table class="container">
+                     
+          <div class="container">
+            <tr>
+              <td> 
+          
+              </td>
+              <td>   <h5 class="td2"></h5><h6></h6>  </td>
+                                      <td id="td1"><H3>1/2</H3> </td>
+                                      <td id="td1"> <H3>1</H3>   </td>
+                                      
+              </tr>
+              <tr>
+                  <td> 
+                     <img class="thumbnail" src="images/Anchois Marinées5.webp" alt="Thumbnail 1" onclick="openModal(['images/Anchois Marinées1.jpg','images/Anchois Marinées2.jpg','images/Anchois Marinées3.jpg','images/Anchois Marinées4.jpeg','images/Anchois Marinées5.webp'])">
+                  </td>
+                  <td>   <h5 class="td2">Anchois Marinées</h5><h6></h6>  </td>
+                                          <td id="td1">30.00 DH  </td>
+                                          <td id="td1">  40.00 DH  </td>
+                                          
+                  </tr>
+                  <tr>
+                      <td>    <img class="thumbnail" src="images/Tortilla Espagnola7.webp" alt="Thumbnail 1" onclick="openModal(['images/Tortilla Espagnola9.jpg','images/Tortilla Espagnola9.webp','images/Tortilla Espagnola10.jpg','images/Tortilla Espagnola11.jpg'])">
+
+                      </td>
+                     
+                      <td> <h5 class="td2">Tortilla Espagnola. </h5><h6></h6> </td>
+                      
+                      <td id="td1">_  </td>
+                      <td id="td1"> 45.00 DH  </td>
+                      </tr>
+                      <tr>
+                          <td>                      <img class="thumbnail" src="images/Salade russe2.webp" alt="Thumbnail 1" onclick="openModal(['images/Salade russe2.webp', 'images/Salade russe1.webp','images/Salade russe4.webp','images/Salade russe3.webp'])">
+
+                          </td>
+                        
+                          <td>   <h5 class="td2">Salade russe</h5><h6></h6>  </td>
+                          <td id="td1">_ </td>
+                          <td id="td1"> 75.00 DH  </td>
+                          </tr>
+                      
+                              <tr>
+                                  <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                  </td>
+                                  <td>       <h5 class="td2">Poulpe à la gallega </h5><h6></h6></td>
+                                          <td id="td1">_ </td>
+                                          <td id="td1"> 90.00 DH  </td>
+                                  </tr>
+                                
+                                      <tr>
+                                          <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                          </td>
+                                          
+                                          <td>    <h5 class="td2"> Crevettes Pil-Pil  </h5><h6></h6></td>
+                                          <td id="td1"> 70.00 dh </td>
+                                          <td id="td1"> 100.00 DH  </td>
+                                          </tr>
+                                         
+                                          <tr>
+                                            <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                            </td>
+                                            <td>   <h5 class="td2">  Almejas (Palourde)   </h5><h6></h6></td>
+                                            <td id="td1"> 60.00 DH  </td>
+                                            <td id="td1"> 85.00 DH  </td>
+                                            </tr>
+                                                      <tr>
+                                                          <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                          </td>
+                                                          <td>      <h5 class="td2">  Almejas (Palourde)   </h5><h6></h6></td>
+                                                          <td id="td1"> 70.00 DH </td>
+                                                          <td id="td1"> 100.00 DH  </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                              </td>
+                                                              <td>      <h5 class="td2">  Almejas (Palourde)  </h5><h6></h6></td>
+                                                              <td id="td1"> 60.00 DH  </td>
+                                                              <td id="td1"> 85.00 DH  </td>
+                                                              </tr>
+                                                          
+                                                                  <tr>
+                                                                      <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                                      </td>
+                                                                      <td>  <h5 class="td2">Ardoise Apéro</h5><h6>Trio de charcuterie, Trio fromagen,<br>noix,raisins,confiure de figue</h6></td>
+                                                                              <td id="td1">  _ </td>
+                                                                              <td id="td1">  130.00 DH  </td>
+                                                                      </tr>
+                                                                    
+                                                                          <tr>
+                                                                              <td>                     <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                                              </td>
+                                                                              
+                                                                              <td>      <h5>Plateau 4 Tapas</h5><h6>Salade Russe.  Anchois marinee Crevettes <br>
+
+                                                                                pil-pil. Calomar frits...</h6></td>
+                                                                              <td id="td1">_ </td>
+                                                                              <td id="td1">  300.00 DH  </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                  <td> 
+                                                                                  </td>
+                                                                                  <td></td>
+                                                                                  <td></td>
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                      <tr>
+                                                                                          <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                                                          </td>
+                                                                                          
+                                                                                          <td>   <h5>Croquettes Poisson</h5><h6>Océane à l'encre de séche</h6>  </td>
+                                                                                                                  <td id="td1"> 80.00 DH  </td>
+                                                                                                                  <td v>  110.00 DH  </td>
+                                                                                                                  
+                                                                                          </tr>
+                                                                                          <tr>
+                                                                                              <td> <                     <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                                                              </td>
+                                                                                              <td>     <h5>Goujonnette de Poulet</h5><h6>Poulet sauce tartar <br>& Chilli 880</h6></td>
+                                                                                              <td id="td1"> 30.00 DH  </td>
+                                                                                              <td id="td1">   40.00 DH  </td>
+                                                                                              </tr>
+                                                                                              <tr>
+                                                                                                  <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                                                                  </td>
+                                                                                                  <td>    <h5>Croquettes Géante</h5><h6>Parmesan Jambon Coeur <br>Mozzarela
+
+                                                                                                    Sauce Napolitaine
+
+                                                                                                    </h6></td>
+                                                                                                  <td id="td1">_-- </td>
+                                                                                                  <td id="td1"> 90.00 dh</td>
+                                                                                                  </tr>
+                                                                                                    
+                                                                                                            <tr>
+                                                                                                                <td>                      <img class="thumbnail" src="images/Ardoise Apéro.jpg" alt="Thumbnail 1" onclick="openModal(['images/Ardoise Apéro.jpg', 'images/wine-glass-french-cuisine-tapas-clip-art-wine.jpg'])">
+
+                                                                                                                </td>
+                                                                                                                <td>     <h5>Friture de poisson</h5>
+                                                                                                                </td>
+                                                                                                                        <td id="td1">  120.00 DH    </td>
+                                                                                                                        <td id="td1">  210.00 DH  </td>
+                                                                                                                </tr>
+                                                                                                              
+                                                                                                             
+                                               
+                 <!-- menu serve -->                         
+      </table>
+        </div>
+      </div>
+      <div class="container-SALADE bg-danger text-white py-5 grayscale x-large" id="SALADE">
+        <div class="container">
+          <h1 class=" text-center display-1 mb-5"><a data-bs-target="#menu" id="#menu" href="#menu"><img src="images/86.png" alt="" srcset="" class="img"> </a> </h1>
+          <h1 class="text-center display-1 mb-5">SALAD</h1>
+          <table class="container">
+                     
+            <div class="container">
+                <tr>
+                    <td> <img src="images/Anchois Marinées.jpg" alt="" srcset="" class="domin">
+                    </td>
+                    
+                    <td>   <h5>Salade Caprese</h5><h6>Tomate mûres tranchées, Mozzarella <br> 
+                      fraiche tranchée,feuilles de basilic frais<br>, 
+                      poivre, sel et huile d'olive extra <br>
+                      vierge, sauce pesto</h6>  </td>
+                                            <td id="td1">  </td>
+                                            <td id="td1">  100.00dh </td>
+                                            
+                    </tr>
+                    <tr>
+                        <td> <img src="images/Calamar frits.webp" alt="" srcset="" class="domin">
+                        </td>
+                       
+                        <td> <h5></h5>Carpaccio Vittore </h5><h6>Fines tranches de viande de veau crue,<br> assaisonnées huile d'olive, <br>de citron et de parmesan</h6></td>
+                    
+                        <td id="td1">  </td>
+                        <td id="td1"> 120.00 DH  </td>
+                        </tr>
+                        <tr>
+                            <td> <img src="images/Crevettes Pil-Pil.jpg" alt="" srcset="" class="domin">
+                            </td>
+                            <td> <h5>Ile de Mare</h5><h6>Cigala, poulpe, crevettes, moules,<br> duo de poivrons vert et jaune, tomates cerises,<br> huile d'olive, sel, poivre, ail et citron</h6> </td>
+                            <td id="td1"> </td>
+                            <td id="td1">120.00dh  </td>
+                            </tr>
+                        
+                                <tr>
+                                    <td> <img src="images/Croquettes Poisson.jpg" alt="" srcset="" class="domin">
+                                    </td>
+                                    <td>   <h5>Burrata</h5> <h6>Burrata fraîche, défilé de tomates,<br> huile d'olives extra vierge, vinaigre balsamique,<br> basilic, sel, poivre</h6>  </td>
+                                            <td id="td1"> </td>
+                                            <td id="td1"> 160.00 DH  </td>
+                                    </tr>
+                                  
+                                        <tr>
+                                            <td> <img src="images/Gambas à la plancha.jpg" alt="" srcset="" class="domin">
+                                            </td>
+                                            
+                                            <td> <h5>Cocktail de crevettes facon 1920</h5><h6>Gambas décortiquées, lit d'avocat, mesclun <br>de salade. sauce cocktail</h6></td>
+                                            <td id="td1"> </td>
+                                            <td id="td1"> 100.00 DH  </td>
+                                            </tr>
+                                           
+                                                        <
+                                                                                           
+                                                                                                      
+                                                                                                            
+                                                                                                               
+                                                 
+                   <!-- menu serve -->                         
+        </table>
+          </div>
+        </div>
+        <div class="container-PIZZAS bg-danger text-white py-5 grayscale x-large" id="PIZZAS">
+          <div class="container">
+            <h1 class=" text-center display-1 mb-5"><a data-bs-target="#menu" id="#menu" href="#menu"><img src="images/86.png" alt="" srcset="" class="img"> </a></h1>
+            <h1 class="text-center display-1 mb-5">PIZZAS</h1>
+            <table class="container">
+                     
+              <div class="container">
+                  <tr>
+                      <td> <img src="images/Anchois Marinées.jpg" alt="" srcset="" class="domin">
+                      </td>
+                      
+                      <td>   <h5>Pizza Margarita</h5><h6>Sauce tomate maison, fromage <br> mozzarella, olives <br> ​noir, origan</h6>  </td>
+                                              <td id="td1">  </td>
+                                              <td id="td1">  80.00 DH  </td>
+                                              
+                      </tr>
+                      <tr>
+                          <td> <img src="images/Calamar frits.webp" alt="" srcset="" class="domin">
+                          </td>
+                         
+                          <td>  <h5>Pizza Carbonara</h5><h6>Crème fraiche, fromage mozzarella,<br> poulet, ​champignon, parmesan</h6></td>
+                      
+                          <td id="td1">  </td>
+                          <td id="td1"> 150.00 DH  </td>
+                          </tr>
+                          <tr>
+                             
+                                  <tr>
+                                      <td> <img src="images/Croquettes Poisson.jpg" alt="" srcset="" class="domin">
+                                      </td>
+                                      <td >    <h5>Pizza Fruit de mer</h5><h6>Sauce tomate maison, mozzarella,<br> crevettes,
+                                         ​calamars, moules,<br> poivron,origan</h6></td>
+                                              <td id="td1"> </td>
+                                              <td id="td1"> 160.00 DH  </td>
+                                      </tr>
+                                    
+                                         
+                                             
+                                              <tr>
+                                                <td> <img src="images/Anchois Marinées.jpg" alt="" srcset="" class="domin">
+                                                </td>
+                                                <td>   <h5>Pizza Napolitaine</h5><h6>Sauce tomate maison, fromage mozzarella,<br> ​anchois salé, basilic, roquette</h6></td>
+                                                <td id="td1">   </td>
+                                                <td id="td1"> 120.00 DH  </td>
+                                                </tr>
+                                                          <tr>
+                                                              <td> <img src="images/Almejas (Palourde).jpg" alt="" srcset="" class="domin">
+                                                              </td>
+                                                              <td>    <h5>Pizza 4 fromages</h5><h6>Sauce tomate maison, fromage <br> mozzarella, ​roquefort, brie, <br> parmeson, origan</h6></td>
+                                                              <td id="td1">  </td>
+                                                              <td id="td1"> 180.00 DH  </td>
+                                                              </tr>
+                                                             
+                                                              
+                                                                    
+                                                                                                 
+                                                                                                                  
+                                                                                                                 
+                                                   
+                     <!-- menu serve -->                         
+          </table>
+            </div>
+          </div>
+          <div class="container-PASTA bg-danger text-white py-5 grayscale x-large" id="PASTA">
+            <div class="container">
+              <h1 class=" text-center display-1 mb-5"><a data-bs-target="#menu" id="#menu" href="#menu"><img src="images/86.png" alt="" srcset="" class="img"> </a> </h1>
+              <h1 class="text-center display-1 mb-5">PASTA</h1>
+              <table class="container">
+                     
+                <div class="container">
+                    <tr>
+                        <td> <img src="images/Anchois Marinées.jpg" alt="" srcset="" class="domin">
+                        </td>
+                        
+                        <td>   <h5>
+                          Linguines aux fruits de mer</h5>  </td>
+                                                <td id="td1"> </td>
+                                                <td id="td1">  160.00 DH  </td>
+                                                
+                        </tr>
+                        <tr>
+                            <td> <img src="images/Calamar frits.webp" alt="" srcset="" class="domin">
+                            </td>
+                           
+                            <td> <h5>Penne Alfredo</h5></td>
+                        
+                            <td id="td1"> </td>
+                            <td id="td1"> 100.00 DH  </td>
+                            </tr>
+                            <tr>
+                                <td> <img src="images/Crevettes Pil-Pil.jpg" alt="" srcset="" class="domin">
+                                </td>
+                                <td>  <h5> Spaguetti bolognaise</h5> </td>
+                                <td id="td1"> </td>
+                                <td id="td1"> 100.00 DH  </td>
+                                </tr>
+                            
+                                    <tr>
+                                        <td> <img src="images/Croquettes Poisson.jpg" alt="" srcset="" class="domin">
+                                        </td>
+                                        <td>    <h5>Tagliattelles à la carbonara</h5></td>
+                                                <td id="td1"></td>
+                                                <td id="td1"> 100.00 DH  </td>
+                                        </tr>
+                                      
+                                           
+                                                                                                                    
+                                                                                                                   
+                                                     
+                       <!-- menu serve -->                         
+            </table>
+              </div>
+            </div>
+            <div class="container-BURGERS bg-danger text-white py-5 grayscale x-large" id="BURGERS">
+              <div class="container">
+                <h1 class="text-center display-1 mb-5"><a data-bs-target="#menu" id="#menu" href="#menu"><img src="images/86.png" alt="" srcset="" class="img"> </a> </h1>
+                <h1 class="text-center display-1 mb-5">BURGERS</h1>
+                <table class="container">
+                     
+                  <div class="container">
+                      <tr>
+                          <td> <img src="images/Anchois Marinées.jpg" alt="" srcset="" class="domin">
+                          </td>
+                          
+                          <td>   <h5>Cheese Burger Petit Capri</h5>  </td>
+                                                  <td id="td1"> </td>
+                                                  <td id="td1">  120.00DH  </td>
+                                                  
+                          </tr>
+                          <tr>
+                              <td> <img src="images/Calamar frits.webp" alt="" srcset="" class="domin">
+                              </td>
+                             
+                              <td> Crispy César</td>
+                          
+                              <td id="td1">  </td>
+                              <td id="td1"> 100.00 DH  </td>
+                              </tr>
+                              <tr>
+                                <td> 
+                                </td>
+                               
+                                <td></td>
+                            
+                                <td id="td1">  </td>
+                                <td id="td1">  </td>
+                                </tr>
+                                <tr>
+                                  
+                                  </td>
+                                 
+                                  <td></td>
+                              
+                                  <td id="td1">  </td>
+                                  <td id="td1">  </td>
+                                  </tr>
+                                                            
+                                                                                                                     
+                                                       
+                         <!-- menu serve -->                         
+              </table>
+                </div>
+              </div>
+              <div class="container-DESSERT bg-danger text-white py-5 grayscale x-large" id="DESSERT">
+                <div class="container">
+                  <h1 class=" text-center display-1 mb-5"><a data-bs-target="#menu" id="#menu" href="#menu"><img src="images/86.png" alt="" srcset="" class="img"> </a></h1>
+                  <h1 class="text-center display-1 mb-5">DESSERT</h1>
+                  <table class="container">
+                     
+                    <div class="container">
+                        <tr>
+                           
+                            <td id="td2"> <img src="images/Anchois Marinées.jpg" alt="" srcset="" class="domin">
+                            </td>  <td ><h5>Fondant au chocolat</h5>  </td>
+                                                    <td id="td1"> </td>
+                                                    <td id="td1">  70.00 DH  </td>
+                                                    
+                            </tr>
+                            <tr>
+                                <td id="td2"> <img src="images/Calamar frits.webp" alt="" srcset="" class="domin">
+                                </td>
+                               
+                                <td > Tarte au citron</td>
+                            
+                                <td id="td1"> </td>
+                                <td id="td1"> 60.00 DH  </td>
+                                </tr>
+                                <tr>
+                                    <td id="td2"> <img src="images/Crevettes Pil-Pil.jpg" alt="" srcset="" class="domin">
+                                    </td>
+                                    <td>  Tiramisu</td>
+                                    <td id="td1"> </td>
+                                    <td id="td1"> 70.00 DH  </td>
+                                    </tr>
+                                
+                                        <tr>
+                                            <td id="td2"> <img src="images/Croquettes Poisson.jpg" alt="" srcset="" class="domin">
+                                            </td>
+                                            <td>     Panna cotta</td>
+                                                    <td id="td1"></td>
+                                                    <td id="td1"> 60.00 DH  </td>
+                                            </tr>
+                                          
+                                                <tr>
+                                                    <td id="td2"> <img src="images/Gambas à la plancha.jpg" alt="" srcset="" class="domin">
+                                                    </td>
+                                                    
+                                                    <td>     Boule de glace italienne</td>
+                                                    <td id="td1">  </td>
+                                                    <td id="td1"> 70.00 DH  </td>
+                                                    </tr>
+                                                   
+                                                   
+                                                                                                                        
+                                                                                                                       
+                                                         
+                           <!-- menu serve -->                         
+                </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  
+        </div>
+      </div>
+    </div>
+  
+ 
+   
+
+
+    <!-- Image of location/map -->
+    
+</div>
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg" src="" alt="Modal Image">
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Thumbnails container -->
+  <div class="thumbnails"></div>
+</div>
+
+<script  src="index.js"></script>
+
+</body>
+</html>

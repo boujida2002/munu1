@@ -1,0 +1,259 @@
+.gallery {
+  display: ;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  
+  
+  
+  border-radius: 90px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 55%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+.modal-content img {
+  width: 100%;
+  height: 80%;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+.thumbnail {
+  margin: 10px;
+  cursor: pointer;
+  width: 100px; /* Adjust thumbnail size as needed */
+  height: 100px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+.close:hover,
+.close:focus {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 3px 3px 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/////////////////////////////////////////////////
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: ;
+  min-height: 1vh;
+}
+.row>* {
+    flex-shrink: 0;
+    max-width: 15%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.domin {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+    }
+
+.menu {
+  display: none;
+}
+.img{
+  width: 250px;
+  height: 200px;
+  border-radius: 120px;
+}
+.imge{
+  width: 220px;
+  height: 200px;
+  margin-right: 140px;
+ 
+}
+tr{
+  border: 15px #00000000 solid;
+}
+.kok{
+  border: 2px #fff solid;
+  border-bottom: 4px #fff5f5 outset;
+  border-right: 4px #fff8f8 outset;
+  border-top: 4px #000000 outset;
+}
+.bg-dark {
+    --bs-bg-opacity: -3;
+    background-color: #00000000 !important;
+    
+}
+.bg-danger {
+  --bs-bg-opacity: 1;
+  background-color: #00000000 !important;
+}
+.{
+  background-image: url;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body{
+  background-image: url("images/we are open(14).png");
+  B
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Sedan SC", serif;
+  font-weight: 2002PX;
+  font-style: normal;
+}
+a {
+    color: #fff;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 50px;
+    font-family: "Sedan SC", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+a:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    background-size: 100%;
+    
+}
+h6{
+ 
+  font-family: "Sedan SC", serif;
+  font-weight: 200;
+  font-style: normal;
+  
+  font-size:10px;
+
+}
+#td1 {
+  text-align: center;
+  padding: px; /* Adjust padding as needed */
+  /* Border for demonstration */
+}
+#td2 {
+ 
+ 
+  
+}
+
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: #00000061 !important;
+}
+.container-TAPAS{
+  background-image:;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.container-SALADE{
+  background-image: ;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.container-PIZZAS{
+  background-image: );
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.container-PASTA{
+  background-image:;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.container-BURGERS{
+  background-image: ;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.container-DESSERT{
+  background-image: ;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#dod{
+  width: 80%;
+  height: 20%;
+}
+#dode{
+  width: 90%;
+  height: 55%;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
